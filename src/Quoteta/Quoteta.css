@@ -28,7 +28,14 @@
 .blockQuote {
     margin: 0;
     padding: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
+
+.blockQuote.visible {
+    opacity: 1;
+}
+
 
 .quotTxt {
     margin: 0;
@@ -85,13 +92,4 @@
     letter-spacing: 0%;
     text-align: left;
     cursor: pointer;
-}
-
-.blockQuote {
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-.blockQuote.visible {
-    opacity: 1;
 }
