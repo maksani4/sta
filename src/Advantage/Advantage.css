@@ -1,0 +1,72 @@
+.advBlock {
+    width: 100%;
+    min-height: 467px;
+    padding: 60px 282px ;
+    background: rgb(248, 248, 248);
+}
+
+.advTitle {
+    margin: 0;
+    padding: 0;
+    color: rgb(51, 51, 51);
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.advCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.advCardItem {
+   width: 405px;
+   height: 114px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.itemImg {
+    padding-right: 27px;
+}
+
+.itemBlock {
+    width: 264px;
+    height: 105px;
+    padding-right: 56px;
+}
+
+.itemTitle {
+    margin: 0;
+    padding: 0;
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 11px;
+}
+
+.itemText {
+    margin: 0;
+    padding: 0;
+    color: rgb(102, 102, 102);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}

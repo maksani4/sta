@@ -1,0 +1,97 @@
+.quotBlock {
+    width: 100%;
+    min-height: 284;
+    padding: 60px 282px;
+    background: rgb(248, 248, 248);
+    margin: 0;
+}
+
+.quotTitle {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.quotText {
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blockQuote {
+    margin: 0;
+    padding: 0;
+}
+
+.quotTxt {
+    margin: 0;
+    padding: 0;
+    color: rgb(85, 85, 85);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0%;
+    margin-bottom: 19px;
+}
+
+.quotAutor {
+    color: rgb(85, 85, 85);
+    font-family: 'Open Sans', initial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quotButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quotBtnText {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.quotBtn {
+    margin: 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 40px;
+    background: rgb(43, 145, 204);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.blockQuote {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.blockQuote.visible {
+    opacity: 1;
+}

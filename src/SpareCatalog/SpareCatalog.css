@@ -1,0 +1,20 @@
+.spareBlock {
+    width: 100%;
+    min-height: 467px;
+    padding: 60px 282px;
+}
+
+.spareTitle {
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.spareCard {
+    display: flex;
+}
