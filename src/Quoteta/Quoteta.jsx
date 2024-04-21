@@ -4,7 +4,7 @@ import './Quoteta.css'
 function Quoteta() {
 
     const [quotTxt, setQuottxt] = useState('Место под вашу цитату');
-    const [quoteAuthor, setQuoteAuthor] = useState('© Автор цитаты');
+    const [quoteAuthor, setQuoteAuthor] = useState('Автор цитаты');
     const [quoteVisible, setQuoteVisible] = useState(true);
 
     window.jsonpCallback = function(data) {
