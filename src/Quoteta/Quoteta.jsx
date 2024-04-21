@@ -29,7 +29,7 @@ function Quoteta() {
                 <div className='quotText'>
                     <blockquote className={`blockQuote ${quoteVisible ? 'visible' : ''}`}>
                         <p className='quotTxt'>{quotTxt}</p>
-                        <cite className='quotAutor'>{quoteAuthor}</cite>
+                        <cite className='quotAutor'>{`${quoteAuthor ?  `© ${quoteAuthor}` : ''}`}</cite>
                     </blockquote>
                 </div>
                 <div className='quotButton'>
