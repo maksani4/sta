@@ -1,11 +1,11 @@
 import React from 'react';
 import './TechnicalCatalog.css'
 import CatCard from '../CatCard/CatCard.jsx'
-import komatsu from './komatsu.svg'
-import erpiroc from './erpiroc.svg'
-import manitou from './manitou.svg'
-import hensey from './hensey.svg'
-import kvx from './kvx.svg'
+import komatsu from './img/komatsu.svg'
+import erpiroc from './img/erpiroc.svg'
+import manitou from './img/manitou.svg'
+import hensey from './img/hensey.svg'
+import kvx from './img/kvx.svg'
 
 function TechnicalCatalog() {
     return (

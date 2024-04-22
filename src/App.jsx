@@ -1,5 +1,5 @@
-import Advantage from './Advantage/Advantage';
 import './App.css';
+import Advantage from './Advantage/Advantage';
 import Footar from './Footar/Footar';
 import HomePage from './HomePage/HomePage';
 import News from './News/News';

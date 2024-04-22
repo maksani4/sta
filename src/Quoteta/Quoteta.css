@@ -93,3 +93,31 @@
     text-align: left;
     cursor: pointer;
 }
+
+@media(max-width: 360px) {
+    .quotBlock {
+        min-height: 544px;
+        padding: 80px 10px;
+        background: rgb(248, 248, 248);
+        margin: 0;
+    }
+
+    .quotBtnText {
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+
+    .quotButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+}

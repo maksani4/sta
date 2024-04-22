@@ -39,3 +39,9 @@
     letter-spacing: 0%;
     text-align: left;
 }
+
+@media(max-width: 360px) {
+    .newsCardItem {
+    margin-bottom: 32px;
+    }
+}

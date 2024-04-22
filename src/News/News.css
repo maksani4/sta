@@ -6,17 +6,37 @@
 
 .newsTitle {
     margin: 0;
-    padding: 0;
     color: rgb(51, 51, 51);
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 40px;
 }
 
 .newsCardComp {
     display: flex;
+}
+
+@media(max-width: 360px) {
+    .newsBlock {
+        max-width: 360px;
+        min-height: 1103px;
+        padding: 80px 10px;
+    }
+
+    .newsTitle {
+        margin: 0;
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33px;
+        margin-bottom: 40px;
+    }
+
+    .newsCardComp {
+        display: inline;
+        margin-bottom: 32px;
+    }
 }
