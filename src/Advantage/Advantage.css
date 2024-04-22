@@ -87,13 +87,14 @@
 
     .advCardItem {
         max-width: 340px;
-        max-height: 137px;
+        max-height: 140px;
         margin-bottom: 35px;
     }
 
     .itemBlock{
         max-width: 340px;
         max-height: 140px;
+        padding: 0;
     }
 
     .itemTitle {
