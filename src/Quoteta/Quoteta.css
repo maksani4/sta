@@ -1,114 +1,112 @@
 .quotBlock {
-    width: 100%;
-    min-height: 284;
-    padding: 60px 282px;
-    background: rgb(248, 248, 248);
-    margin: 0;
+  width: 100%;
+  min-height: 284;
+  padding: 60px 282px;
+  background: rgb(248, 248, 248);
+  margin: 0;
 }
 
 .quotTitle {
-    margin: 0;
-    padding: 0;
-    color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 33px;
-    margin-bottom: 40px;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  margin-bottom: 40px;
 }
 
 .quotText {
-    padding-top: 40px;
-    text-align: center;
-    margin-bottom: 50px;
+  padding-top: 40px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .blockQuote {
-    margin: 0;
-    padding: 0;
-    opacity: 0;
-    transition: opacity 0.5s;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .blockQuote.visible {
-    opacity: 1;
+  opacity: 1;
 }
 
-
 .quotTxt {
-    margin: 0;
-    padding: 0;
-    color: rgb(85, 85, 85);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 54px;
-    margin-bottom: 19px;
+  margin: 0;
+  padding: 0;
+  color: rgb(85, 85, 85);
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 54px;
+  margin-bottom: 19px;
 }
 
 .quotAutor {
-    color: rgb(85, 85, 85);
-    font-family: 'Open Sans', initial;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
+  color: rgb(85, 85, 85);
+  font-family: "Open Sans", initial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
 }
 
 .quotButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .quotBtnText {
-    color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 19px;
-    padding-right: 30px;
+  color: rgb(0, 0, 0);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  padding-right: 30px;
 }
 
 .quotBtn {
-    margin: 0;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 40px;
-    background: rgb(43, 145, 204);
-    color: rgb(255, 255, 255);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    cursor: pointer;
+  margin: 0;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 40px;
+  background: rgb(43, 145, 204);
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  cursor: pointer;
 }
 
-@media(max-width: 360px) {
-    .quotBlock {
-        min-height: 544px;
-        padding: 80px 10px;
-        background: rgb(248, 248, 248);
-        margin: 0;
-    }
+@media (max-width: 360px) {
+  .quotBlock {
+    min-height: 544px;
+    padding: 80px 10px;
+    background: rgb(248, 248, 248);
+    margin: 0;
+  }
 
-    .quotBtnText {
-        color: rgb(0, 0, 0);
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 19px;
-        margin-bottom: 10px;
-    }
+  .quotBtnText {
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
 
-    .quotButton {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
+  .quotButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }

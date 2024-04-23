@@ -43,6 +43,7 @@
 }
 
 .header__email {
+    text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -52,6 +53,7 @@
 }
 
 .header__phone {
+    text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;

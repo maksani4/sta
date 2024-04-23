@@ -10,8 +10,8 @@ function HomePage() {
                 <p className='title__text'>Запчасти и спецтехника для горнодобывающей отрасли</p>
             </div>
             <div className='header__cont'> 
-                <p className='header__email'>frontend.test@mail.ru</p>
-                <p className='header__phone'>+7 499 999-99-99</p>
+                <a href='malito: frontend.test@mail.ru' className='header__email'>frontend.test@mail.ru</a>
+                <a href='tel: +7 499 999-99-99' className='header__phone'>+7 499 999-99-99</a>
             </div>
         </div>
         <div className='banner'>
