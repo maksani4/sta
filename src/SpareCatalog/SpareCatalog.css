@@ -10,8 +10,6 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 40px;
 }
 
@@ -21,8 +19,7 @@
 
 @media(max-width: 360px) {
     .spareBlock {
-        max-width: 360px;
-        min-height: 1283px;
+        min-height: 1070px;
         padding: 80px 81px 80px 10px;
     }
 

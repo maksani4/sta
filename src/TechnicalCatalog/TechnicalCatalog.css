@@ -22,7 +22,6 @@
 
 @media(max-width: 360px) {
     .techBlock {
-        max-width: 360px;
         min-height: 1283px;
         padding: 80px 81px 80px 10px;
     }
